@@ -83,7 +83,7 @@ const page = () => {
               setText1(e.target.value);
             }}
             value={text1}
-            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+            className="appearance-none bg-transparent border-none  text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
             type="text"
             placeholder="Search crypto"
           />

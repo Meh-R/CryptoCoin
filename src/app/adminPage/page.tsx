@@ -72,20 +72,20 @@ const page = () => {
   }, [text1]);
 
   return (
-    <div className="bg-gray-100 flex flex-col ">
+    <div className="bg-gray-100 flex flex-col  min-w-min ">
       <div>
         <Header>
           <ButtonHomePage />
           <ButtonOffer />
         </Header>
       </div>
-      <div className="flex flex-col items-center w-full">
+      <div className="flex flex-col items-center ">
         <div>
           <h2 className="mt-10 text-2xl text-center">Promo code</h2>
           <CreatPromoModal setIsReloadNeeded={setIsReloadNeeded} />
         </div>
 
-        <div className="mt-10 flex flex-col ">
+        <div className="mt-10 flex flex-col  ">
           {promoList &&
             promoList.slice(0, number2).map((element) => {
               return (
@@ -109,7 +109,7 @@ const page = () => {
       </div>
 
       <hr className="my-10 border-gray-200 dark:border-gray-700 w-5/6 m-auto " />
-      <div className="mt-10">
+      <div className="mt-10 ">
         <h2 className="mt-10 text-2xl text-center">Crypto</h2>
         <CreateCryptoModale setIsReloadNeeded={setIsReloadNeeded} />
         <div className="ml-20 w-1/6 mt-20 items-center border-b-2 border-gray-800 py-2">
@@ -118,7 +118,7 @@ const page = () => {
               setText1(e.target.value);
             }}
             value={text1}
-            className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+            className="appearance-none bg-transparent border-nonel text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
             type="text"
             placeholder="Search crypto"
           />
@@ -145,7 +145,7 @@ const page = () => {
           </button>
         </CardContainer>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center ">
         <hr className="my-20 border-gray-200 dark:border-gray-700 w-5/6 m-auto " />
         <h2 className="mt-10 text-2xl text-center">All offer</h2>
         {offersList &&
@@ -159,7 +159,7 @@ const page = () => {
               </div>
             );
           })}
-        <div className="flex flex-col items-center w-full">
+        <div className="flex flex-col items-center">
           <button
             className="bg-white w-40 mt-5 p-5  text-yellow-600"
             onClick={() => {

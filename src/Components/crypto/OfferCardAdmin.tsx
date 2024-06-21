@@ -27,7 +27,7 @@ export const OfferCardAdmin = ({
       });
   }
   return (
-    <div className="flex justify-center bg-grey-100">
+    <div className="flex justify-center  bg-grey-100  min-w-min">
       <section className="antialiased bg-grey-100 text-gray-600  w-3/6">
         <div className="flex flex-col justify-center min-w-min h-full">
           <div className=" m-5 w-full rounded-lg mx-auto bg-white shadow-lg  border border-gray-200">

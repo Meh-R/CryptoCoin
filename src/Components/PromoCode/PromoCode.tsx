@@ -27,12 +27,12 @@ export const PromoCode = ({
   return (
     <div className="bg-gray-100  flex items-center justify-center ">
       <div className="relative w-full max-w-lg">
-        <div className="p-5 bg-white  flex items-center justify-between space-x-8">
+        <div className="p-5 bg-white  flex items-center justify-between space-x-8 ">
           <div className="flex-1 flex justify-center items-center">
-            <div className=" w-1/3 bg-gray-300 rounded-lg m-2 p-2 min-w-min">
+            <div className=" w-1/3 bg-gray-300 rounded-lg m-2 p-2 ">
               Name: {promo.name}
             </div>
-            <div className="w-1/3 min-w-min rounded-lg bg-gray-300  text-yellow-700 m-2 p-2">
+            <div className="w-1/3  rounded-lg bg-gray-300  text-yellow-700 m-2 p-2">
               Value: {promo.value}
             </div>
             <button

@@ -8,7 +8,7 @@ export const CardContainer = ({
   text: string;
 }) => {
   return (
-    <section className="antialiased mt-10 bg-gray-100 text-gray-600 px-4">
+    <section className="antialiased mt-10 bg-gray-100 text-gray-600 px-4 ">
       <div className="flex flex-col justify-center  h-full">
         <div className="w-full rounded-lg mx-auto bg-white shadow-lg  border border-gray-200">
           <header className="px-5 py-4 border-b border-gray-100">

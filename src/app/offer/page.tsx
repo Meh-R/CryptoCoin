@@ -11,7 +11,7 @@ import Header from "@/Components/button/Header";
 import { ButtonHomePage } from "@/Components/button/ButtonHomePage";
 import { Create } from "@/Components/button/Create";
 
-const page = (crypto: Crypto) => {
+const page = () => {
   const [offersList, setOffersList] = useState<OffersProps[]>();
   const [isReloadNeeded, setIsReloadNeeded] = useState(false);
   const [userElement, setUserElement] = useState<User>();
